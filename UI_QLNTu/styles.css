@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+
+.frame {
+  border: 1px solid rgb(255, 255, 255);
+  width: 750px;
+  height: 501px;
+}
+/* ========================= header ==================================*/
+.header {
+  display: flex;
+  background-color: #0c0e227b;
+  width: inherit;
+  height: 32px;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 1px solid dimgray;
+}
+
+.header img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+
+.app-name {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+
+.icon-box {
+  display: flex;
+  position: absolute;
+  right: 275px;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+}
+
+.icon-box > i {
+  color: whitesmoke;
+}
+
+.icon-box > span {
+  font-size: 2rem;
+  color: rgb(110, 107, 107);
+  margin: 0 1rem;
+}
+
+/* =============================== body ===================================*/
+.container {
+  display: flex;
+  width: inherit;
+  height: 468px;
+}
+
+/*------ ------------------------- left -----------------------------------*/
+.left {
+  width: 21%;
+  height: inherit;
+  background-color: rgb(28, 28, 28);
+  box-shadow: 5px 0 15px rgba(134, 134, 134, 0.637);
+  background-color:  rgb(10, 26, 26);;
+}
+
+/*------------------------ user ----------------------------*/
+.box-user {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  color: whitesmoke;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 3px 5px rgba(105, 104, 104, 0.534);
+}
+
+img[alt="avatar"] {
+  width: 3rem;
+}
+
+.box-user p {
+  margin-left: 1rem;
+  margin-right: 1.8rem;
+}
+
+.box-user span {
+  display: inline-block;
+  margin-top: 3px;
+  /* margin-left: 10px; */
+  color: rgb(247, 147, 93);
+  font-size: 0.9rem;
+}
+
+/*---------------------- menu ------------------------*/
+.btn-menu {
+  display: flex;
+  align-items: center;
+  height: 33px;
+  margin: 1.1rem 0 1.1rem 1.1rem;
+  background-color: #353535;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.left .btn-menu:nth-child(2) {
+  background-color: rgb(221, 80, 28);
+  background-color: #007630;
+box-shadow: -1px 0 10px rgb(32, 120, 42);
+}
+
+.btn-menu > img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+  border-radius: 3px;
+}
+
+.btn-menu > p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.copyright {
+  color: rgb(163, 157, 157);
+  position: absolute;
+  top: 485px;
+  left: 300px;
+}
+
+/*------------------------------- right -----------------------------------*/
+.right {
+  z-index: -1;
+  width: 79%;
+  height: inherit;
+  background-color: rgb(251, 251, 251);
+  background: linear-gradient(to top, #e6f9e8, #e4e5e6);
+}
+
+/*------------------- title & action -------------------*/
+.title-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
+.search-prison {
+  border-bottom: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.search-prison input {
+  border: none;
+  background-color: transparent;
+  width: 12rem;
+}
+
+.search-prison input::placeholder {
+  font-size: 1rem;
+}
+
+.search-prison i {
+  margin: 0.5rem 0.4rem 0.5rem 0.6rem;
+}
+
+.btn-add {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1.8px 2.3px 2px rgb(171, 176, 171);
+  background-color: rgb(50, 148, 245);
+  color: white;
+}
+
+.btn-exit {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1.8px 2.3px 2px rgb(171, 176, 171);
+  background-color: rgb(116, 118, 121);
+  color: white;
+}
+
+.box-actions {
+  display: flex;
+
+}
+
+.filler {
+  display: inline-block;
+  /* margin: 0rem 0rem 1rem 1.5rem; */
+  padding: 0.4rem 0.6rem;
+  /* border: 1px solid gray; */
+  border-radius: 0.5rem;
+  box-shadow: 1.8px 2.3px 2px rgb(171, 176, 171);
+  background-color: gainsboro;
+}
+
+.filler i {
+  margin-right: 3px;
+}
+
+/*--------------------- table --------------------------*/
+table {
+  width: 100%;
+  /* height: 300px; */
+  border-collapse: collapse;
+  background-color: white;
+}
+
+thead {
+  font-weight: bold;
+  background-color: rgb(255, 199, 177);
+  background-color: #054d22;
+  color: #fcfffc;
+}
+
+thead th {
+  padding: 5px 0;
+}
+
+.ic-sort {
+  position: absolute;
+  width: 1.1rem;
+  left: 480px;
+  color: rgb(191, 195, 199);
+}
+
+tbody td, th {
+  padding: 3px;
+  text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgb(235, 234, 234);
+}
+
+tbody img {
+  height: 2.9rem;
+
+}
+
+td.tot,
+td.trung-binh,
+td.kem {
+  position: relative;
+  z-index: 0;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 600;
+}
+
+
+td.tot::after, 
+td.trung-binh::after, 
+td.kem::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 1rem;
+  /* box-shadow: 1.8px 2.3px 2px rgb(171, 176, 171); */
+}
+
+td.tot::after {
+  background-color: #40ac44;
+  inset: 0.9rem 4rem;
+}
+
+td.trung-binh::after {
+  background-color: #f7a727;
+  inset: 0.9rem 3rem;
+}
+
+td.kem::after {
+  background-color: #f45d52;
+  inset: 0.9rem 4rem;
+}
+
+/*--------------------------------------------------*/
+.scroll-bar {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(224, 220, 220);
+}
+
+.scroll-bar .scroll {
+  width: 40%;
+  height: inherit;
+  background-color: gray;
+  border-radius: 3px;
+}
+/*--------------------------------------------------*/
+.quantity-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  /* margin-top: 0.5rem; */
+}
+
+.box-quantity {
+  color: rgb(91, 89, 89);
+}
+
+.box-page {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-page > i {
+  margin: 4.5px;
+  font-size: 1.1rem;
+  color: rgb(168, 69, 4);
+}
+
+.box-page div {
+  background-color: white;
+  padding: 4px 5px;
+  border: 1px solid rgb(255, 146, 95);
+  height: 2.1rem;
+}
+
+.box-page div i {
+  padding-left: 12px;
+}
+/* ================================== links ================================ */
+.links {
+  margin-top: 5px;
+}
+.links a {
+  display: block;
+  color: white;
+  margin-top: 2px;
+}
+
+.man-han {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2rem !important;
+}
+
+.dang-giam-giu {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.2rem !important;
+}
+
+.readonly {
+  background-color: lightgrey !important;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="DSPhongGiam.css">
+    <title>Quản lý nhà tù</title>
+</head>
+
+<body>
+    <div class="frame">
+        <div class="header">
+            <img src="./images/logo.png" alt="logo">
+            <div class="app-name">HỆ THỐNG QUẢN LÝ NHÀ TÙ Z30D</div>
+
+            <div class="icon-box">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right" style="color: rgb(169, 167, 167);"></i>
+                <span>|</span>
+                <i class="fa-solid fa-minus"></i>
+                <i class="fa-regular fa-window-restore"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="left">
+                <div class="box-user">
+                    <img src="./images/avatar.png" alt="avatar">
+                    <p><b>Nguyễn Văn Ba</b>
+                        <br><span>Người quản lý</span>
+                    </p>
+                    <i style="color: rgb(203, 205, 250);" class="fa-solid fa-right-from-bracket"></i>
+                </div>
+
+                <div class="btn-menu">
+                    <img src="./images/prisoner.png" alt="prisoner">
+                    <p>Quản lý tù nhân</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/employee.png" alt="employee">
+                    <p>Quản lý nhân sự</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/jail.png" alt="jail">
+                    <p>Quản lý phòng giam</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/healthcare.png" alt="health care">
+                    <p>Quản lý sức khỏe <br>tù nhân</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/visiting.png" alt="visiting">
+                    <p>Quản lý thăm gặp</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/report.png" alt="report">
+                    <p>Báo cáo thống kê</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/security.png" alt="security">
+                    <p>Quản lý đăng nhập <br>và bảo mật</p>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Nhom 10
+                </div>
+            </div>
+            <div class="right">
+                <div class="title-action">
+                    <h2>Danh sách phòng giam</h2>
+
+                    <div class="search-prison">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="" placeholder="Tìm mã, loại phòng,...">
+                    </div>
+
+                    <div class="filler">
+                        <i class="fa-solid fa-filter"></i>
+                        Lọc
+                    </div>
+
+                    <div class="btn-add">DS tù nhân mới</div>
+                    <div class="btn-add">
+                        <i class="fa-solid fa-plus"></i>
+                        Thêm phòng
+                    </div>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mã phòng
+                                <i class="fa-solid fa-arrow-up ic-sort"></i>
+                            </th>
+                            <th>Loại phòng</th>
+                            <th>Khu vực</th>
+                            <th>Sức chứa</th>
+                            <th>Số lượng tù nhân</th>
+                            <th>Trạng thái</th>
+                            <th>Mô tả</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>P001</td>
+                            <td>Phổ thông</td>
+                            <td>A1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>Có thể sử dụng</td>
+                            <td>3 giường tầng, 2...</td>
+                        </tr>
+                        <tr>
+                            <td>P002</td>
+                            <td>VIP</td>
+                            <td>B2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>Có thể sử dụng</td>
+                            <td>2 giường, 3...</td>
+                        </tr>
+                        <tr>
+                            <td>P003</td>
+                            <td>Biệt giam</td>
+                            <td>C1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Đang bảo trì</td>
+                            <td>1 giường, 1...</td>
+                        </tr>
+                        <tr>
+                            <td>P004</td>
+                            <td>Phổ thông</td>
+                            <td>A1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>Có thể sử dụng</td>
+                            <td>3 giường tầng, 2...</td>
+                        </tr>
+                        <tr>
+                            <td>P005</td>
+                            <td>VIP</td>
+                            <td>B2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>Có thể sử dụng</td>
+                            <td>2 giường, 3...</td>
+                        </tr>
+                        <tr>
+                            <td>P006</td>
+                            <td>Biệt giam</td>
+                            <td>C1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Đang bảo trì</td>
+                            <td>1 giường, 1...</td>
+                        </tr>
+                        <tr>
+                            <td>P007</td>
+                            <td>Phổ thông</td>
+                            <td>A1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>Có thể sử dụng</td>
+                            <td>3 giường tầng, 2...</td>
+                        </tr>
+                        <tr>
+                            <td>P008</td>
+                            <td>VIP</td>
+                            <td>B2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>Có thể sử dụng</td>
+                            <td>2 giường, 3...</td>
+                        </tr>
+                        <tr>
+                            <td>P009</td>
+                            <td>Biệt giam</td>
+                            <td>C1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Đang bảo trì</td>
+                            <td>1 giường, 1...</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>P010</td>
+                            <td>Phổ thông</td>
+                            <td>A1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>Có thể sử dụng</td>
+                            <td>3 giường tầng, 2...</td>
+                        </tr>
+                        <tr>
+                            <td>P011</td>
+                            <td>VIP</td>
+                            <td>B2</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>Có thể sử dụng</td>
+                            <td>2 giường, 3...</td>
+                        </tr>
+                        <tr>
+                            <td>P012</td>
+                            <td>Biệt giam</td>
+                            <td>C1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>Đang bảo trì</td>
+                            <td>1 giường, 1...</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>P013</td>
+                            <td>Phổ thông</td>
+                            <td>A1</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>Có thể sử dụng</td>
+                            <td>3 giường tầng, 2...</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="scroll-bar">
+                    <div class="scroll"></div>
+                </div>
+
+                <div class="quantity-page">
+                    <div class="box-quantity">
+                        Tổng số phòng giam: <b>100</b> <br>
+                        Có thể sử dụng: <b>90</b> <br>
+                        Đang bảo trì: <b>10</b>
+                    </div>
+                    <div class="box-page">
+                        <i class="fa-solid fa-angles-left"></i>
+                        <i class="fa-solid fa-angle-left"></i>
+                        <div>1/19 <i class="fa-solid fa-caret-down"></i></div>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="link"></div>
+    <script>
+        fetch("Links.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("link").innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.left .btn-menu:nth-child(2) {
+    background-color: #353535;
+    box-shadow: none;
+  }
+
+  .left .btn-menu:nth-child(4) {
+    background-color: #007630;
+  box-shadow: -1px 0 10px rgb(32, 120, 42);
+  }
+
+  .ic-sort {
+    /* position: absolute;
+    width: 1.1rem; */
+    left: 472px;
+    /* color: rgb(191, 195, 199); */
+  }
+
+  tbody > tr {
+    height: 2.5rem;
+  }

@@ -1,0 +1,36 @@
+
+.labels > p {
+  width: 13rem !important;
+  margin-bottom: 1rem;
+}
+
+.txt-area {
+    width: 40rem !important;
+    height: 3.8rem;
+}
+
+.values > p {
+    background-color: transparent;
+    width: 40rem;
+}
+
+.portrait-chart {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart {
+  height: 10rem;
+  width: 30rem;
+}
+
+.expand1 {
+  position: absolute;
+  left: 95rem;
+  top: 31rem;
+}
+.expand2 {
+  position: absolute;
+  left: 95rem;
+  top: 34rem;
+}

@@ -1,0 +1,75 @@
+.btn-update {
+  background-color: rgb(128, 238, 128);
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 1.8px 2.3px 2px rgb(171, 176, 171);
+  color: rgb(1, 38, 1);
+}
+
+/* .info > div > p {
+    padding: 7px;
+}
+
+.detain > div > p {
+    padding: 7px;
+} */
+
+.form p {
+  line-height: normal;
+}
+
+.input {
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.detain > .values {
+  margin-top: 1rem;
+}
+
+.info .labels > p {
+  width: 100px;
+}
+
+.detain .labels > p {
+  width: 110px;
+}
+
+.detain > .values > p {
+  width: 120px;
+}
+
+.values > p {
+  padding: 4px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid rgb(18, 74, 29);
+  border-radius: 4px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+}
+
+.detain > .values > p {
+  width: 120px;
+}
+
+.dang-giam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(18, 74, 29);
+  border-radius: 4px;
+  padding: 3px 5px;
+  width: 120px;
+  background-color: white;
+}
+
+.dang-giam > p {
+  margin: 0 10px 0 0;
+}
+
+.chan-dung {
+  margin-left: 3.2rem;
+  /* margin-top: 0.8rem; */
+  font-weight: bold;
+  font-size: 1.1rem;
+}

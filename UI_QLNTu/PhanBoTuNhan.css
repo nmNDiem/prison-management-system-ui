@@ -1,0 +1,26 @@
+.left .btn-menu:nth-child(2) {
+    background-color: #353535;
+    box-shadow: none;
+  }
+
+  .left .btn-menu:nth-child(4) {
+    background-color: #007630;
+  box-shadow: -1px 0 10px rgb(32, 120, 42);
+  }
+
+.no-color {
+    color: transparent;
+}
+
+.ic-sort {
+    left: 504px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(7, 95, 7);
+}
+
+td > i {
+    color: green;
+}

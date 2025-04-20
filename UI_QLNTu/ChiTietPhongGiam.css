@@ -1,0 +1,102 @@
+.left .btn-menu:nth-child(2) {
+  background-color: #353535;
+  box-shadow: none;
+}
+
+.left .btn-menu:nth-child(4) {
+  background-color: #007630;
+  box-shadow: -1px 0 10px rgb(32, 120, 42);
+}
+
+/* .values > p {
+  border-bottom: 1px solid rgb(17, 90, 28);
+  border-radius: 4px;
+  padding: 4px;
+  margin: 0 0 1rem 7px;
+  width: 110px;
+  height: 2.1rem;
+} */
+
+.txt-area {
+  width: 40rem !important;
+  height: 3.8rem;
+}
+
+/* //////////////////////// */
+.right {
+  padding: 0 1.5rem;
+}
+
+.box-btn {
+  /* background-color: blue; */
+  width: 37rem;
+}
+
+.box-btn-1 {
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: end;
+}
+
+.box-btn-1 div {
+  margin-right: 3rem;
+}
+.box-btn-2 {
+  display: flex;
+  justify-content: end;
+}
+.box-btn-2 div {
+  margin-right: 2.2rem;
+}
+
+.form {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 1rem;
+}
+
+img[alt="portrait"] {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 2rem;
+}
+
+.form p {
+  /* line-height: 5px; */
+  font-size: 1.1rem;
+}
+
+.info {
+  display: flex;
+  margin-right: 6rem;
+}
+
+.detain {
+  display: flex;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.labels > p {
+  margin-bottom: 1.1rem;
+  width: 13rem;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.2rem;
+}
+
+.values > p {
+  width: 40rem;
+}
+
+.box-actions > .btn-add:first-child {
+  margin-right: 1rem;
+}

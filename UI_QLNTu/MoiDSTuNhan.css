@@ -1,0 +1,20 @@
+.left .btn-menu:nth-child(2) {
+    background-color: #353535;
+    box-shadow: none;
+  }
+
+  .left .btn-menu:nth-child(4) {
+    background-color: #007630;
+  box-shadow: -1px 0 10px rgb(32, 120, 42);
+  }
+
+  h2 {
+    margin-left: 1rem;
+  }
+  .filler {
+    margin-right: 1rem;
+  }
+
+  .ic-sort {
+    left: 486px;
+  }

@@ -1,0 +1,160 @@
+.form {
+    display: flex;
+    padding: 0 1.5rem;
+}
+
+.info > div > .info-prisoner {
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 1.5rem;
+}
+
+.info > div > .img-prisoner {
+    margin-left: 6rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 7rem;
+    border: 2px dashed #a4a6a4;
+    background-color: rgb(236, 238, 239);
+
+}
+
+img {
+    width: 3rem;
+}
+
+.chan-dung {
+    margin-left: 1.7rem;
+    margin-top: 0.8rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.detain-2 {
+    display: flex;
+}
+
+.fault {
+    display: flex;
+    align-items: baseline;
+}
+
+.fault > div > pre {
+    margin: 0;
+}
+
+.color-white {
+    color: white;
+}
+
+.labels, .fault-label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 3px;
+}
+
+.labels > div {
+    margin-bottom: 1.9rem;
+}
+
+.values > div, .input {
+    border-bottom: 1px solid rgb(17, 90, 28);
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0 0 1rem 7px;
+    background-color: white;
+    width: 110px;
+    height: 2.1rem;
+}
+
+.fault > .input:nth-child(4) {
+    width: 50px;
+}
+
+.btn-plus {
+    font-weight: bold;
+    color: #199a39;
+    border: 1.5px solid #199a39;
+    border-radius: 50%;
+    padding: 0px 3.5px;
+    margin-left: 1rem;
+}
+
+.tong-an, .ra-tu {
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 1.2rem;
+}
+
+.chap-hanh {
+    margin-top: 2rem !important;
+}
+
+.ra-tu {
+    margin-top: 1.7rem !important;
+}
+
+i.one {
+    margin-left: 1.6rem;
+}
+
+i.two {
+    margin-left: 0.7rem;
+}
+
+i.three {
+    margin-left: 1.6rem;
+    color: black;
+}
+
+i.cccd {
+    margin-left: 9rem;
+    color: #6e6c6c;
+}
+
+
+
+.is-old > .info-prisoner {
+    
+    display: flex;
+}
+
+.is-old .labels > div {
+    margin-bottom: 0rem;
+}
+
+.is-old .values > div {
+    margin-bottom: 0rem;
+}
+
+.hoac {
+    margin: 0.5rem 0 0.5rem 2rem;
+    font-weight: bold;
+    color: #036303;
+    
+}
+
+.box-radio {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #036303;
+}
+
+.box-radio > i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.old {
+    color: #6e6c6c;
+}
+
+h2 {
+    text-align: center;
+}

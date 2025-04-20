@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="ChiTietTuNhan.css"> -->
+    <link rel="stylesheet" href="ChiTietPhongGiam.css">
+    <link rel="stylesheet" href="UpdatePhongGiam.css">
+    <link rel="import" href="DSTuNhan.html">
+    <title>Quản lý nhà tù</title>
+</head>
+
+<body>
+    <div class="frame">
+        <div class="header">
+            <img src="./images/logo.png" alt="logo">
+            <div class="app-name">HỆ THỐNG QUẢN LÝ NHÀ TÙ Z30D</div>
+
+            <div class="icon-box">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right" style="color: rgb(169, 167, 167);"></i>
+                <span>|</span>
+                <i class="fa-solid fa-minus"></i>
+                <i class="fa-regular fa-window-restore"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="left">
+                <div class="box-user">
+                    <img src="./images/avatar.png" alt="avatar">
+                    <p><b>Nguyễn Văn Ba</b>
+                        <br><span>Người quản lý</span>
+                    </p>
+                    <i style="color: rgb(203, 205, 250);" class="fa-solid fa-right-from-bracket"></i>
+                </div>
+
+                <div class="btn-menu">
+                    <img src="./images/prisoner.png" alt="prisoner">
+                    <p>Quản lý tù nhân</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/employee.png" alt="employee">
+                    <p>Quản lý nhân sự</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/jail.png" alt="jail">
+                    <p>Quản lý phòng giam</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/healthcare.png" alt="health care">
+                    <p>Quản lý sức khỏe <br>tù nhân</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/visiting.png" alt="visiting">
+                    <p>Quản lý thăm gặp</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/report.png" alt="report">
+                    <p>Báo cáo thống kê</p>
+                </div>
+                <div class="btn-menu">
+                    <img src="./images/security.png" alt="security">
+                    <p>Quản lý đăng nhập <br>và bảo mật</p>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 Nhom 10
+                </div>
+            </div>
+            <div class="right">
+
+                <div class="title-action">
+                    <h2>Danh sách phòng giam / Thêm phòng</h2>
+                    <div class="box-actions">
+                        <div class="btn-add">Lưu</div>
+                        <div class="btn-exit">Thoát</div>
+                    </div>
+                </div>
+                
+                <div class="form">
+                    <div class="info">
+                        <div class="labels">
+                            <p>Loại phòng:</p>
+                            <p>Khu vực:</p>
+                            <p>Sức chứa:</p>
+                            <p>Trạng thái:</p>
+                            <p>Mô tả:</p>
+                        </div>
+                        <div class="values">
+                            <div class="pho-thong">
+                                <p>Phổ thông</p>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <div class="pho-thong">
+                                <p>A1</p>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <p>6</p>
+                            <div class="pho-thong">
+                                <p>Có thể sử dụng</p>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                            <p class="txt-area">3 giường tầng, 2 quạt trần, 1 tủ đồ chung, có nhà vệ sinh và bàn sinh hoạt nhỏ.</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="link"></div>
+    <script>
+        fetch("Links.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("link").innerHTML = data;
+            });
+    </script>
+</body>
+
+</html>
